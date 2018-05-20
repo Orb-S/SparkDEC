@@ -1,4 +1,4 @@
-package edu.skku.sparkdec.sparkdec;
+package com.spark.jiwonpark.helloworld;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

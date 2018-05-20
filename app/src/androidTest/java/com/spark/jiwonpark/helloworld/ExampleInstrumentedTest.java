@@ -1,4 +1,4 @@
-package edu.skku.sparkdec.sparkdec;
+package com.spark.jiwonpark.helloworld;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("edu.skku.sparkdec.sparkdec", appContext.getPackageName());
+        assertEquals("com.spark.jiwonpark.helloworld", appContext.getPackageName());
     }
 }
