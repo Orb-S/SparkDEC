@@ -1,4 +1,4 @@
-package edu.skku.sparkdec.sparkdec;
+package com.calcul.user.hello;
 
 import org.junit.Test;
 
