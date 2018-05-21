@@ -1,32 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/input1"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_above="@id/input2"
-        />
-    <EditText
-        android:id="@+id/input2"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:orientation="horizontal">
-        <Button
-            android:id="@+id/add"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="fill_horizontal"/>
-    </LinearLayout>
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Hello World!"/>
 
-</RelativeLayout>
+</LinearLayout>
